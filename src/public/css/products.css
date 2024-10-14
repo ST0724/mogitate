@@ -1,0 +1,93 @@
+.content{
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+/* タイトル・商品追加ボタン */
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head__register{
+    margin: 15px;
+}
+
+.head__register--button{
+    padding: 9px 16px;
+    background-color: coral;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #ddd;
+}
+
+.main-contant{
+    display: flex;
+}
+
+
+
+/* 検索欄 */
+.search-form{
+    width: 20%;
+}
+
+.search-form__button{
+    margin-top: 5px;
+    padding: 2px 50px;
+    background-color: goldenrod;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #ddd;
+}
+
+.search-form__price__select{
+    padding: 0 50px;
+}
+
+
+
+/* 商品データ */
+.product{
+    width: 80%;
+    margin-left: 10px;
+}
+
+.product__image{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:32%;
+}
+
+.card:not(:nth-child(3n+3)) {
+    margin-right: 2%;
+}
+
+.card:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.card a,
+.card a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+.card__image{
+    width: 100%;
+}
+
+.card__info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #fff;
+}

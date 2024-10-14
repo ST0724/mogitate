@@ -1,0 +1,22 @@
+body {
+    background: #eee;
+}
+
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 0px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+    font-style: italic;
+}

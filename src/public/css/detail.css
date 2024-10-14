@@ -1,0 +1,86 @@
+.content {
+    margin: 0 auto;
+    max-width: 1230px;
+    width: 60%;
+}
+
+
+.detail{
+    display: flex;
+    margin-top: 100px;
+}
+
+.detail__card {
+    width: 50%;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__image--input{
+    margin-top: 10px;
+}
+
+.detail__input{
+    width: 50%;
+    padding-left: 30px;
+}
+
+
+
+.description{
+    margin-top: 50px;
+}
+
+.update-form__input {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.update-form__text,
+.update-form__textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: #ddd;
+    border-radius: 3px;
+}
+
+.update-form__textarea {
+    height: 150px;
+}
+
+.update-form__radio {
+    margin-right: 5px;
+}
+
+.update-form__radio:not(:nth-child(1)) {
+    margin-left: 50px;
+}
+
+.update-form__button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.update-form__button--return {
+    margin-right: 10px;
+    padding: 10px 50px;
+    background-color: #ccc;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #ddd;
+}
+
+.update-form__button--submit {
+    margin-left: 10px;
+    padding: 10px 50px;
+    background-color: goldenrod;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 3px #ddd;
+}
