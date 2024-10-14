@@ -13,6 +13,16 @@ class ProductController extends Controller
         return view('products', compact('products'));
     }
 
+    public function search(Request $request){
+        //dd($key);
+        if(is_null($request->keyword)){
+            return redirect('/products');
+        }
+
+        $products = Product::KeywordSearch($request->keyword)->simplePaginate(6);
+        return view('products', compact('products'));
+    }
+
     public function regist(){
         return view('register');
     }

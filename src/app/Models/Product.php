@@ -14,4 +14,12 @@ class Product extends Model
     public function season(){
         return $this->belongsToMany(Season::class);
     }
+
+
+    public function scopeKeywordSearch($query, $keyword)
+    {
+        if (!empty($keyword)) {
+            $query->where('name', 'like', '%' . $keyword . '%');
+        }
+    }
 }

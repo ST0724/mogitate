@@ -18,8 +18,9 @@
 
     <div class="main-contant">
         <!-- 検索欄 -->
-        <form action="" class="search-form">
-            <input type="text" class="search-form__name" placeholder="商品名で検索">
+        <form class="search-form" action="/products/search" method="POST">
+            @csrf
+            <input type="text" class="search-form__name" placeholder="商品名で検索" name="keyword">
             <button class="search-form__button">検索</button>
             <h3 class="search-form__price--title">価格順で表示</h3>
             <select name="" id="" class="search-form__price__select"></select>

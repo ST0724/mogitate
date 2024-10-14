@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="content">
-    <form action="/products/{id}/update" class="update-form" methoc="POST">
+    <form action="/products/{id}/update" class="update-form" method="POST">
         @method('PATCH')
         @csrf
 
